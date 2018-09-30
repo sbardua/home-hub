@@ -1,2 +1,2 @@
 # home-hub
-Raspberry Pi + Docker = Tasty Treats!
+Raspberry Pi Dockerized Home Assistant, Mosquitto and Node-RED
