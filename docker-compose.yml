@@ -15,7 +15,7 @@ services:
     restart: always
   homeassistant:
     container_name: homeassistant
-    image: homeassistant/raspberrypi3-homeassistant:0.79.0
+    image: homeassistant/raspberrypi3-homeassistant:0.83.3
     volumes:
       - /etc/localtime:/etc/localtime:ro
       - ./homeassistant/config:/config
@@ -26,7 +26,7 @@ services:
       - mosquitto
   nodered:
     container_name: nodered
-    image: nodered/node-red-docker:0.19.4-rpi-v8
+    image: nodered/node-red-docker:0.19.5-rpi-v8
     volumes:
       - /etc/localtime:/etc/localtime:ro
       - ./nodered/data:/data
